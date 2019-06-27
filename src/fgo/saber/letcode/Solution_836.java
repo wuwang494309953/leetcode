@@ -44,10 +44,7 @@ public class Solution_836 {
         int b = rec[1];
         int c = rec[2];
         int d = rec[3];
-        if(a>=c || b>=d) {
-            return false;
-        }
-        return true;
+        return a < c && b < d;
     }
 
     /*
